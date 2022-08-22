@@ -1,0 +1,67 @@
+﻿<Window x:Class="Client.View.ProgramWindowView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client.View"
+        mc:Ignorable="d"
+        Title="ProgramWindowView" Height="750" Width="1200" Icon="{Binding AppIcon}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="90*"></ColumnDefinition>
+            <ColumnDefinition Width="260*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0" Background="#FF1F759B" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="6*"></RowDefinition>
+                <RowDefinition Height="5*"></RowDefinition>
+                <RowDefinition Height="4*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Image Margin="23,30,23,30" Source="{Binding AppLogo}"/>
+
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="5*"></RowDefinition>
+                    <RowDefinition Height="10*"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Button Grid.Row="0" BorderBrush="#009FE3" Background="#009FE3" BorderThickness="2" Command="{Binding GoToGallery}">
+                    <Grid Height="76" Width="305">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="3*"></RowDefinition>
+                            <RowDefinition Height="10*"></RowDefinition>
+                            <RowDefinition Height="1*"></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <Grid Grid.Row="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"></ColumnDefinition>
+                                <ColumnDefinition Width="10*"></ColumnDefinition>
+                                <ColumnDefinition Width="6*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Grid.Column="1" Text="Галерея" FontSize="28" Foreground="White" ></TextBlock>
+                        </Grid>
+                    </Grid>
+
+                </Button>
+
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="10*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Background="#FF1F759B"></Grid>
+            <ContentControl x:Name="MainContentPlace" Grid.Row="1">
+                <Rectangle HorizontalAlignment="Center" Height="667" Stroke="Black" VerticalAlignment="Center" Width="891"/>
+
+            </ContentControl>
+        </Grid>
+
+    </Grid>
+</Window>

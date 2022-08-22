@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "HTTP_API/1.0.0": {
+        "runtime": {
+          "HTTP_API.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HTTP_API/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,9 @@
+D:\Task\Server\HTTP_API\bin\Debug\netcoreapp3.1\HTTP_API.deps.json
+D:\Task\Server\HTTP_API\bin\Debug\netcoreapp3.1\HTTP_API.dll
+D:\Task\Server\HTTP_API\bin\Debug\netcoreapp3.1\HTTP_API.pdb
+D:\Task\Server\HTTP_API\obj\Debug\netcoreapp3.1\HTTP_API.csproj.AssemblyReference.cache
+D:\Task\Server\HTTP_API\obj\Debug\netcoreapp3.1\HTTP_API.AssemblyInfoInputs.cache
+D:\Task\Server\HTTP_API\obj\Debug\netcoreapp3.1\HTTP_API.AssemblyInfo.cs
+D:\Task\Server\HTTP_API\obj\Debug\netcoreapp3.1\HTTP_API.csproj.CoreCompileInputs.cache
+D:\Task\Server\HTTP_API\obj\Debug\netcoreapp3.1\HTTP_API.dll
+D:\Task\Server\HTTP_API\obj\Debug\netcoreapp3.1\HTTP_API.pdb
